@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Invitacion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!--Animacion invitacion-->
+    <div class="row initialbutton">
+        <div class="col-3"></div>
+        <div class="col-6 hologram" id="hologram">
+            <img class="r2d2" id="r2d2" src="./images/r2d2.png">
+            <div class="boton text-center r2" onclick="animar()"></div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    <!--div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 direccion" id="direccion">
+            <img class="vader" id="vader" src="./images/darth-vader.png">
+            <a class="boton text-center darth" href="./views/informacion.html"></a>
+        </div>
+        <div class="col-3"></div>
+    </!div-->
+    <section class="intro texto_intro">
+        Hace 12 meses<br> en una galaxia,<br> muy muy lejana ...
+    </section>
+    <section class="parrafos">
+        <div class="row historia texto_historia">
+            <div class="col-1"></div>
+            <div class="col-10 ">
+                <p class="title text-center">Episodio I</p>
+                <p class="title text-center">FIESTA GALÁCTICA</p>
+                <p class="mensaje ">Son tiempos de guerra civil. Darth Vader ha enviado miles de sondas a buscar a una pequeña princesa Jedi llamada Nombre,  ya que segun la profecia Jedi, ella traera felicidad y travesuras a toda su familia para asi devolverle el equilibrio a la fuerza. </p>
+                <p class="mensaje ">Lia no sabe que el Consejo Jedi ha iniciado secretamente una fiesta para celebrar su primer año.</p>
+                <p class="mensaje ">Has sido elegido para unir fuerzas y unirte a Nombre para celebrar su primer cumpleaños.
+                </p>
+                <p class="mensaje ">Por favor no faltes, ¡La galaxia te necesita!</p>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imagen_icon" src="./images/002-sable-de-luz.png" alt="" width="70%">
+                    </div>
+                    <div class="col-10">
+                        <p class="mensaje">Te esperamos Fecha en el Templo Jedi</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <img class="imagen_icon" src="./images/001-estacin-espacial.png" alt="" width="70%">
+                    </div>
+                    <div class="col-10">
+                        <p class="mensaje">Las coordenadas exactas son Direccion</p>
+                    </div>
+                </div>
+                </div>
+            <div class="col-1"></div>
+        </div>
+    </section>
+    <audio src="https://raw.githubusercontent.com/NestorPlasencia/sound/master/starwars.mp3" id="sonido"
+        autoplay></audio>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/move.js"></script>
+</body>
+
+</html>

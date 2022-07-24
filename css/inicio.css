@@ -1,0 +1,62 @@
+body {
+    background-image: url(../images/star-wars-backgrounds-28.jpg);
+    background-size: cover;
+}
+
+.lia {
+    width: 60%;
+    padding-top: 66px;
+    padding-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-left: 20%;
+    background-image: url(../images/iniciar-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-image: url(../images/star-wars-backgrounds-25.jpg);
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.btn {
+    color: #fff;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 100%;
+    background-color: #057d96;
+}
+
+.btn:hover {
+    background-color: #057d96;
+}
+
+.iconSW {
+    width: 20%;
+    text-align: end !important;
+}
+
+.episodio {
+    font-family: 'News Cycle', sans-serif;
+    color: #ff6;
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.info {
+    font-family: 'News Cycle', sans-serif;
+    color: #ff6;
+    text-align: center;
+    font-size: 140%;
+}
+
+.boton {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}

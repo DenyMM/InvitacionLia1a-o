@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitacion</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/inicio.css">
+</head>
+
+<body>
+    <!-- Invitacion-->
+    <div class="container">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="lia text-center"></div>
+                <h1 class="episodio">EPISODIO I</h1>
+            </div>
+            <div class="col-4"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10" id="headingone">
+                <button data-bs-toggle="collapse" data-bs-target="#fecha" aria-expanded="false" aria-controls="fecha"
+                    class="btn"><img class="iconSW" src="../images/002-sable-de-luz.png">¿Cuándo será la
+                    fiesta?</button>
+                <hr>
+                <div data-bs-toggle="collapse" id="fecha" aria-labelledby="headingone">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="info">Dia del evento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10" id="headingtwo">
+                <button data-bs-toggle="collapse" data-bs-target="#direcc" aria-expanded="false" aria-controls="direcc"
+                    class="btn"><img class="iconSW" src="../images/001-estacin-espacial.png">¿En dónde será
+                    la fiesta?</button>
+                <hr>
+                <div data-bs-toggle="collapsed show" id="direcc" aria-labelledby="headingtwo">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="info">Direccion del Evento</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+
+    <audio src="https://raw.githubusercontent.com/NestorPlasencia/sound/master/starwars.mp3" id="sonido"></audio>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/move.js"></script>
+</body>
+
+</html>
